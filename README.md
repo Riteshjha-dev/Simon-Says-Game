@@ -1,15 +1,15 @@
-# Simon-Says-Game
+# Simon Says Game
 A browser-based Simon Says memory game — repeat the color sequence and test your memory! Built using HTML, CSS, and JavaScript.
 
 
 ✨ Features
 
-Randomly generated color/sound sequences
-Increasing difficulty as you progress
-Score tracking / high score display
-Sound and visual feedback on click
-Game over screen with restart option
-Fully responsive design
+1. Randomly generated color/sound sequences
+2. Increasing difficulty as you progress
+3. Score tracking / high score display
+4. Sound and visual feedback on click
+5. Game over screen with restart option
+6. Fully responsive design
 
 
 🛠️ Built With
@@ -37,11 +37,11 @@ That's it — you're ready to play!
 
 🎯 How to Play
 
-Click the Start button to begin.
-Watch the sequence of colors that lights up.
-Repeat the sequence by clicking the colors in the same order.
-Each round adds one more step to the sequence.
-Make a mistake, and the game ends — try to beat your high score!
+1. Click the Start button to begin.
+2. Watch the sequence of colors that lights up.
+3. Repeat the sequence by clicking the colors in the same order.
+4. Each round adds one more step to the sequence.
+5. Make a mistake, and the game ends — try to beat your high score!
 
 
 📂 Project Structure

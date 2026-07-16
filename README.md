@@ -26,9 +26,9 @@ Just a web browser — no installations needed!
 
 Installation
 1. Clone the repository
-bash   git clone https://github.com/your-username/simon-says-game.git
+bash   git clone https://github.com/Riteshjha-dev/Simon-Says-Game.git
 
-2. Navigate to the project folder
+3. Navigate to the project folder
 bash   cd simon-says-game
 
 4. Open index.html in your browser

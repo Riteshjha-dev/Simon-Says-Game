@@ -1,2 +1,64 @@
 # Simon-Says-Game
-A browser-based Simon Says memory game — repeat the color sequence and test your memory! Built using HTML, CSS, and vanilla JavaScript.
+A browser-based Simon Says memory game — repeat the color sequence and test your memory! Built using HTML, CSS, and JavaScript.
+
+
+✨ Features
+
+Randomly generated color/sound sequences
+Increasing difficulty as you progress
+Score tracking / high score display
+Sound and visual feedback on click
+Game over screen with restart option
+Fully responsive design
+
+
+🛠️ Built With
+
+HTML5 – structure
+CSS3 – styling and animations
+JavaScript – game logic and interactivity
+
+
+🚀 Getting Started
+
+Prerequisites
+Just a web browser — no installations needed!
+
+Installation
+1. Clone the repository
+bash   git clone https://github.com/your-username/simon-says-game.git
+
+2. Navigate to the project folder
+bash   cd simon-says-game
+
+4. Open index.html in your browser
+That's it — you're ready to play!
+
+
+🎯 How to Play
+
+Click the Start button to begin.
+Watch the sequence of colors that lights up.
+Repeat the sequence by clicking the colors in the same order.
+Each round adds one more step to the sequence.
+Make a mistake, and the game ends — try to beat your high score!
+
+
+📂 Project Structure
+
+simon-says-game/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
+
+
+🙌 Acknowledgements
+
+Inspired by the classic Simon electronic game
+Built as a fun project to practice JavaScript DOM manipulation and event handling

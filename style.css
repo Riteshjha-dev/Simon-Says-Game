@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  margin-bottom: 25px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.line-one,
+.line-two {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  width: min(42vw, 180px);
+  height: min(42vw, 180px);
+  border-radius: 20%;
+  border: 8px solid black;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+  font-weight: bold;
+  user-select: none;
+
+  transition: transform 0.15s ease;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.red {
+  background: rgb(234, 67, 53);
+}
+
+.green {
+  background: rgb(52, 168, 83);
+}
+
+.blue {
+  background: rgb(66, 133, 244);
+}
+
+.yellow {
+  background: rgb(251, 188, 5);
+}
+
+.gameflash {
+  background: white;
+}
+
+.userflash {
+  background: grey;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+
+  body {
+    padding: 15px;
+  }
+
+  .btn {
+    width: 38vw;
+    height: 38vw;
+    max-width: 150px;
+    max-height: 150px;
+    border-width: 6px;
+    font-size: 1.6rem;
+  }
+
+  .line-one,
+  .line-two {
+    gap: 12px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+  h1 {
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    line-height: 1.4;
+    margin-bottom: 8px;
+  }
+
+  h3 {
+    margin-bottom: 18px;
+  }
+
+  .btn {
+    width: 40vw;
+    height: 40vw;
+    max-width: 140px;
+    max-height: 140px;
+    border-width: 5px;
+    font-size: 1.4rem;
+  }
+
+  .line-one,
+  .line-two {
+    gap: 10px;
+  }
+}
+
+/* Very Small Phones */
+@media (max-width: 320px) {
+
+  .btn {
+    width: 38vw;
+    height: 38vw;
+    font-size: 1.2rem;
+    border-width: 4px;
+  }
+}

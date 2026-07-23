@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Simon Says Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-card">
+      <h1>Simon <span>Says</span></h1>
+      <p class="subtitle">Watch the pattern, then repeat it</p>
+
+      <div class="score-chip">
+        <span class="score-label">High Score</span>
+        <span class="score-value" id="highScore">0</span>
+      </div>
+
+      <h2>Press any key or tap Start to begin</h2>
+
+      <div class="btn-container">
+        <div class="line-one">
+          <div class="btn red" id="red" role="button" aria-label="red"></div>
+          <div
+            class="btn green"
+            id="green"
+            role="button"
+            aria-label="green"
+          ></div>
+        </div>
+        <div class="line-two">
+          <div
+            class="btn blue"
+            id="blue"
+            role="button"
+            aria-label="blue"
+          ></div>
+          <div
+            class="btn yellow"
+            id="yellow"
+            role="button"
+            aria-label="yellow"
+          ></div>
+        </div>
+
+        <div class="center-disc">
+          <button id="startBtn" class="start-btn">▶<br />Start</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
